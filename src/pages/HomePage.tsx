@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import { asset } from "../asset";
 import { CATEGORIES, HOME_CATEGORIES } from "../data/catalog";
 import { IconBell, IconChevron, IconSearch, Logo } from "../components/Icons";
 import { useStore } from "../store/AppStore";
@@ -15,7 +16,7 @@ export function HomePage() {
     <div>
       <div
         className="home-hero"
-        style={{ ["--hero" as string]: "url(/images/hero-excavator.jpg)" }}
+        style={{ ["--hero" as string]: `url(${asset("images/hero-excavator.jpg")})` }}
       >
         <div className="home-top">
           <Logo />

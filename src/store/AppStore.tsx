@@ -7,6 +7,7 @@ import {
   type ReactNode,
 } from "react";
 import { flushSync } from "react-dom";
+import { asset } from "../asset";
 import { createSeed, DEFAULT_FILTERS } from "../data/seed";
 import { CATEGORIES } from "../data/catalog";
 import type {
@@ -19,7 +20,7 @@ import type {
   Message,
 } from "../types";
 
-const KEY = "equipped-demo-v2";
+const KEY = "equipped-demo-v3";
 
 function load(): AppData {
   const seed = createSeed();
@@ -221,7 +222,9 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       id: uid("l"),
       title: input.title,
       category: input.category,
-      photo: CATEGORIES.find((c) => c.id === input.category)?.photo ?? "/images/listings/mini-excavator.jpg",
+      photo:
+        CATEGORIES.find((c) => c.id === input.category)?.photo ??
+        asset("images/listings/mini-excavator.jpg"),
       daily: input.daily,
       weekly: Math.round(input.daily * 3.4),
       monthly: input.daily * 10,

@@ -1,6 +1,7 @@
+import { asset } from "../asset";
 import type { CategoryId, Listing, User } from "../types";
 
-export const CATEGORIES: {
+const CATEGORY_DEFS: {
   id: CategoryId;
   label: string;
   photo: string;
@@ -14,6 +15,8 @@ export const CATEGORIES: {
   { id: "generators", label: "Generators", photo: "/images/listings/generator.jpg" },
   { id: "concrete", label: "Concrete Tools", photo: "/images/listings/concrete-saw.jpg" },
 ];
+
+export const CATEGORIES = CATEGORY_DEFS.map((c) => ({ ...c, photo: asset(c.photo) }));
 
 export const HOME_CATEGORIES: CategoryId[] = [
   "excavators",
@@ -129,7 +132,7 @@ function rates(daily: number, weekly?: number, monthly?: number) {
   };
 }
 
-export const LISTINGS: Listing[] = [
+const LISTINGS_RAW: Listing[] = [
   {
     id: "cat-303",
     title: "CAT 303.5E CR Mini Excavator",
@@ -779,3 +782,5 @@ export const LISTINGS: Listing[] = [
     reviews: [{ author: "Tom B.", text: "Neighbors never noticed it running.", rating: 5 }],
   },
 ];
+
+export const LISTINGS: Listing[] = LISTINGS_RAW.map((l) => ({ ...l, photo: asset(l.photo) }));
