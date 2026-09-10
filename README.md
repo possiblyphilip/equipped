@@ -2,6 +2,8 @@
 
 Peer-to-peer tool and equipment rental prototype. No backend — everything runs in the browser.
 
+**Live demo:** https://possiblyphilip.github.io/equipped/
+
 ## Run
 
 Needs Node 18+.
