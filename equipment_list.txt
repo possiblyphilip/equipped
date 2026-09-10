@@ -1,0 +1,23 @@
+| Rank | Equipment                             | Typical daily |   Typical weekly |
+| ---: | ------------------------------------- | ------------: | ---------------: |
+|    1 | **Mini excavator – 3–4 ton**          |  **$350–450** | **$1,400–1,750** |
+|    2 | **Compact track loader / skid steer** |  **$325–450** | **$1,300–1,750** |
+|    3 | **Mini skid steer / stand-on loader** |  **$225–300** |   **$800–1,100** |
+|    4 | **Dump trailer – 12–14 ft**           |  **$150–225** |     **$600–850** |
+|    5 | **Equipment / flatbed trailer**       |  **$100–150** |     **$400–550** |
+|    6 | **Stump grinder – self propelled**    |  **$175–300** |     **$600–900** |
+|    7 | **Wood chipper – 6–9 in.**            |  **$250–350** |   **$900–1,300** |
+|    8 | **Walk-behind trencher**              |  **$200–300** |   **$750–1,000** |
+|    9 | **Towable boom lift**                 |  **$250–350** |   **$900–1,300** |
+|   10 | **Scissor lift – 19–26 ft**           |  **$150–225** |     **$500–750** |
+|   11 | **Plate compactor**                   |   **$70–100** |     **$250–350** |
+|   12 | **Rear-tine rototiller**              |   **$90–120** |     **$350–450** |
+|   13 | **Lawn aerator**                      |   **$90–125** |     **$350–475** |
+|   14 | **Log splitter – towable**            |  **$100–150** |     **$400–550** |
+|   15 | **Post-hole auger**                   |   **$75–125** |     **$275–400** |
+|   16 | **Commercial pressure washer**        |    **$60–90** |     **$225–300** |
+|   17 | **Concrete saw – 14 in.**             |   **$90–140** |     **$325–450** |
+|   18 | **Floor/drum sander**                 |   **$75–100** |     **$275–375** |
+|   19 | **Tile saw – 10 in.**                 |    **$50–75** |     **$175–250** |
+|   20 | **Airless paint sprayer**             |   **$75–110** |     **$275–400** |
+
